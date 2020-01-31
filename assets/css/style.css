@@ -226,7 +226,7 @@ nav .nav-item{
 
     
 
-    padding: 10px;
+   
 
     padding-left: 22px;
     padding-right: 22px;
@@ -235,6 +235,43 @@ nav .nav-item{
 
     transition: .3s;
 }
+
+nav .nav-item.special{
+
+    background-color:rgba(255, 92, 92, 0.774);
+
+    border-radius: 1.5rem;
+    
+    padding: 0;
+
+    padding: 2px 15px;
+
+    
+
+}
+
+nav .nav-item.special:hover{
+
+    background-color:rgb(255, 92, 92);
+
+}
+
+nav .nav-item.special:hover .nav-link{
+
+    color: white;
+
+}
+
+
+nav .nav-item.special .nav-link{
+
+    color: black;
+    font-weight: 600;
+
+}
+
+
+
 
 nav .nav-link{
 
@@ -249,19 +286,6 @@ nav .nav-link:hover{
     
 
 }
-
-nav .nav-item:last-child{
-
-    
-
-    padding: 10px;
-
-    padding-left: 22px;
-    padding-right: 0px;
-   
-    
-}
-
 
 
 nav .navbar-toggler{
@@ -928,7 +952,7 @@ nav .show .nav-item:hover{
     
     resize: none;
 
-    height: 100px !important;
+    height: 130px !important;
 
 }
 
@@ -962,6 +986,35 @@ nav .show .nav-item:hover{
     background-color: #FF5C5C ;
 
 }
+
+.body-5 .social-media{
+
+    color:black;
+
+}
+
+.body-5 .social-media .social{
+
+    margin: .5rem 1rem;
+    text-decoration: none;
+    color:black;
+
+    transition: .2s;
+}
+
+.body-5 .social-media .social:hover{
+
+    text-decoration: none;
+    color: #FF5C5C;
+}
+
+.body-5 .social-media a:hover{
+
+    text-decoration: none;
+ 
+}
+
+
 
 /* =============================================================================================================== */
 
@@ -1021,6 +1074,14 @@ nav .show .nav-item:hover{
 	text-transform: uppercase;
 
 	list-style-type: none;
+
+}
+
+.inline .list-item.special{
+
+    background-color: #FF5C5C;
+    border-radius: 5rem;
+    padding: 0 20px;
 
 }
 
