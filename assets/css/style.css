@@ -34,6 +34,30 @@ body{
 
 }
 
+p{
+
+    /*color: #728896;*/
+    color:#666;
+    font-weight: 400; 
+    
+    justify-content: left;
+
+}
+
+
+/*Tittles*/
+h2{
+
+    margin-bottom: 1rem;
+
+    font-size: 35px;
+    font-weight: lighter;
+
+    text-align: center;
+
+}
+
+
 /* =============================================================================================================== */
 /* Buttons */
 
@@ -67,7 +91,6 @@ body{
 
 }
 
-/* ============================ */
 /*Top Back Button*/
 
 .btn.top-back.show{
@@ -105,7 +128,7 @@ body{
 }
 
 /* =============================================================================================================== */
-/*Card*/
+/*Cards*/
 
 
 .card{
@@ -156,13 +179,27 @@ body{
     font-size: 21px;
 
 
+}   
+
+
+/* =============================================================================================================== */
+/*Patters*/
+
+.padding-patter{
+
+    padding: 5rem .5rem;
+
 }
 
-.card p{
 
-    color: #666666;
 
-}
+
+
+
+
+
+
+
 
 /* =============================================================================================================== */
 /* Hero Section */
@@ -253,6 +290,17 @@ body{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* =============================================================================================================== */
 /*NavBar*/
 
@@ -260,8 +308,6 @@ nav{
 
     max-width: 1200px;
     margin:auto;
-
-    transition: 1s;
 
 }
 
@@ -274,77 +320,16 @@ nav .navbar-brand img{
 
 nav .nav-item{
 
-    padding-left: 22px;
-    padding-right: 22px;
-   
+    padding: 0px 22px;
     margin: 1px;
 
-    transition: .3s;
-
 }
 
-nav .nav-item.special{
-
-    background-color:rgba(255, 92, 92, 0.774);
-
-    border-radius: 1.5rem;
-    
-    padding: 0;
-
-    padding: 2px 15px;
-
-}
-
-nav .nav-item.special:hover{
-
-    background-color:rgb(255, 92, 92);
-
-}
-
-nav .nav-item.special:hover .nav-link{
-
-    color: white;
-
-}
-
-
-nav .nav-item.special .nav-link{
-
-    color: black;
-    font-weight: 600;
-
-}
-
-
-
-
-nav .nav-link{
-
-    color: white;
-
-    transition: .3s;
-}
-
-nav .nav-link:hover{
-
-    color: black;
-    
-
-}
-
-
-nav .navbar-toggler{
-
-    outline:0;
-
-    border-color:white !important;
-
-}
-
+/*Navbar - Dark*/
 .navbar-dark .navbar-nav .nav-link{
 
     color: white;
-    transition: .5s;
+    transition: .3s;
 
 }
 
@@ -352,29 +337,40 @@ nav .navbar-toggler{
 
     color: #FF5C5C;
 
+}
+
+/* ================================= */
+/* Mobile Things */
+
+/* Nav Bar Mobile Button */
+nav .navbar-toggler{
+
+    outline:0;
+    border-color:white !important;
 
 }
 
+/* NavBar Mobile Menu */
 nav .show .nav-item{
 
     background-color:rgba(0,0,0,.1);
-    border-radius: 1rem;
 
 }
 
 nav .show .nav-item:hover{
 
     background: rgba(0,0,0,.1);
-    color: white;
 
 }
 
+
+/* =================================*/
+/* Smooth invisible nav --> JS */
 .shrink{
 
     transition: .5s;
     opacity: 0;
     
-
 }
 
 
@@ -387,21 +383,15 @@ nav .show .nav-item:hover{
 
 }
 
-
 .body-1 h2{
 
-    font-size: 35px;
-    font-weight: 300;
+    text-align: left;
 
 }
 
 .body-1 p{
 
-    font-weight: 400;
-    color: #728896;
-    justify-content: left;
     text-indent: 10px;
-    /*color: #666666;*/
 
 }
 
@@ -437,25 +427,14 @@ nav .show .nav-item:hover{
     padding: 5rem .5rem;
 
     background-color: #F5F7F8;
-    
+
     line-height: 30px;
-
-}
-
-.body-2 h2{
-
-    font-size: 35px;
-    font-weight: lighter;
 
 }
 
 .body-2 p{
 
-    font-weight: 400;
-    color: #728896;
     justify-content: center;
-    
-    /*color: #666666;*/
 
 }
 
@@ -479,26 +458,7 @@ nav .show .nav-item:hover{
 /* =============================================================================================================== */
 /*Body-3*/
 
-.body-3{
-    
-    /*min-height: 300px;*/
-    background-color: #3D73DD;
-    
-
-}
-
-.body-3 .row{
-
-    padding: 50px 0px;
-
-
-}
-
 .body-3 h2{
-
-    
-    font-size: 35px;
-    font-weight: lighter;
 
     text-align: left; 
     
@@ -510,17 +470,12 @@ nav .show .nav-item:hover{
 
     margin: 15px 15px 15px 0px;
 
-
-
 }
 
 .body-3 p{
 
-    
-    
-    justify-content: left;
-    font-weight: 400;
     color: white;
+
 }
 
 
@@ -700,23 +655,9 @@ nav .show .nav-item:hover{
 
 .body-4 h2{
 
-    font-size: 35px;
-    font-weight: lighter;
-
     text-align: center;
 
-    margin-bottom: 2rem;
-
 }
-
-.body-4 p{
-
-    color:#666666;
-
-}
-
-
-
 
 
 /* =============================================================================================================== */
@@ -724,35 +665,16 @@ nav .show .nav-item:hover{
 
 .body-5{
 
+    padding: 5rem .5rem;
+
     background-color: #F5F7F8;
+    color: black;
 
     line-height: 30px;
 
-    color: black;
-
-    padding: 5rem .5rem;
-
 }
 
-.body-5 h2{
-
-    font-size: 35px;
-
-    font-weight: lighter;
-
-    text-align: center;
-
-    margin-bottom: 2rem;
-
-}
-
-.body-5 p{
-
-    color:#666666;
-
-}
-
-
+/*Forms*/
 .body-5 .form-control{
 
     outline: none;
@@ -795,7 +717,7 @@ nav .show .nav-item:hover{
 
 }
 
-
+/*Social Medias*/
 .body-5 .social-media{
 
     color:black;
@@ -831,21 +753,12 @@ nav .show .nav-item:hover{
 
 }
 
-.body-5 .btn:hover{
-
-
-
-}
-
 /* =============================================================================================================== */
 /* Footer */
 
 .footer{
 
 	background-color: #0E2045;
-	background-size: cover;
-	background-attachment: fixed;
-
     color: white;
 
 }
@@ -857,15 +770,16 @@ nav .show .nav-item:hover{
 }
 
 
-
 .footer .by{
 
 	font-size: 12px;
 
 }
 
+
+
 /* =============================================================================================================== */
-/*Bizzare*/
+/*Footer Menu*/
 
 .inline{
 
@@ -901,13 +815,6 @@ nav .show .nav-item:hover{
 
 }
 
-.inline .list-item.special{
-
-    background-color: #FF5C5C;
-    border-radius: 5rem;
-    padding: 0 20px;
-
-}
 
 @media (max-width: 768px){
 
@@ -924,6 +831,28 @@ nav .show .nav-item:hover{
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* =============================================================================================================== */
 /*--- iOS Landing Page Fix --*/
