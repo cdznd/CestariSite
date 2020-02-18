@@ -1,6 +1,6 @@
 {
     "name": "fox/php",
-    "type": "library",
+    "description": "testing phpmailer",
     "require": {
         "phpmailer/phpmailer": "^6.1"
     }
